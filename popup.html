@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Solana MEME Patrol</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <img src="icon.png" width="50" style="border-radius: 50%;"/>
+    <h3>Solana MEME Patrol Configuration</h3>
+
+    <!-- Telegram Token -->
+    <label for="telegramToken">Telegram Bot Token:</label>
+    <div class="input-group">
+      <input type="password" id="telegramToken" placeholder="Enter Telegram Bot Token" class="input-field">
+      <button type="button" id="toggleTokenVisibility" class="toggle-button">VIEW</button>
+    </div>
+    <br>
+
+    <!-- Telegram Chat ID -->
+    <label for="telegramChatId">Telegram Chat ID:</label>
+    <div class="input-group">
+      <input type="password" id="telegramChatId" placeholder="Enter Telegram Chat ID" class="input-field">
+      <button type="button" id="toggleChatIdVisibility" class="toggle-button">VIEW</button>
+    </div>
+    <br>
+
+    <!-- Addresses -->
+    <label for="addresses">Addresses to Track (one per line):</label><br>
+    <textarea id="addresses" placeholder="Enter addresses" rows="10" cols="30" class="input-field"></textarea><br><br>
+
+    <!-- Save Button -->
+    <button id="save" class="save-button">Save</button>
+    <div id="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

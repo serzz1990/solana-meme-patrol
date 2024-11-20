@@ -1,0 +1,79 @@
+/* Общий стиль */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d4a0ff, #eac8ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  
+  /* Контейнер */
+  .container {
+    border-radius: 15px;
+    padding: 20px;
+    min-width: 350px;
+    text-align: center;
+  }
+  
+  /* Заголовок */
+  .container h3 {
+    color: #63467c;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Поля ввода */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 1em;
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  }
+  
+  /* Группа ввода (поле + кнопка) */
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 5px;
+    color: #63467c;
+  }
+  
+  .toggle-button:hover {
+    color: #5e2e88;
+  }
+  
+  /* Кнопка сохранения */
+  .save-button {
+    background: linear-gradient(135deg, #a4f8a2, #81e881);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background: linear-gradient(135deg, #81e881, #6cd06c);
+  }
+  
+  /* Статус-сообщение */
+  #status {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #5e2e88;
+  }
