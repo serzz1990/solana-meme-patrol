@@ -77,3 +77,19 @@ body {
     font-size: 0.9em;
     color: #5e2e88;
   }
+  /* Кнопка запуска */
+.run-button {
+  background: linear-gradient(135deg, #81d4fa, #29b6f6);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-left: 10px;
+}
+
+.run-button:hover {
+  background: linear-gradient(135deg, #29b6f6, #0288d1);
+}

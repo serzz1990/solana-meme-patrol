@@ -3,6 +3,7 @@ const telegramChatIdInput = document.getElementById('telegramChatId');
 const addressesInput = document.getElementById('addresses');
 const saveButton = document.getElementById('save');
 const statusDiv = document.getElementById('status');
+const runButton = document.getElementById('run');
 
 window.addEventListener('DOMContentLoaded', () => {
   chrome.storage.local.get('config', (result) => {
@@ -32,6 +33,11 @@ saveButton.addEventListener('click', () => {
   });
 });
 
+runButton.addEventListener('click', () => {
+  chrome.tabs.create({ url: 'https://solscan.io/' });
+});
+
+
 toggleTokenVisibility.addEventListener('click', () => {
   const isPassword = telegramTokenInput.type === 'password';
   telegramTokenInput.type = isPassword ? 'text' : 'password';
@@ -43,3 +49,4 @@ toggleChatIdVisibility.addEventListener('click', () => {
   telegramChatIdInput.type = isPassword ? 'text' : 'password';
   toggleChatIdVisibility.textContent = isPassword ? 'HIDE' : 'VIEW';
 });
+
