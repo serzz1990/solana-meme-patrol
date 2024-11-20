@@ -56,9 +56,9 @@ We respect your privacy and are committed to protecting your data. See our full 
 
 ## Screenshots
 
-| Main Interface | Configuration Example |
-|----------------|-----------------------|
-| ![Main Interface](https://via.placeholder.com/400x300?text=Main+Interface) | ![Configuration Example](https://via.placeholder.com/400x300?text=Configuration) |
+| Main Interface |
+|----------------|
+| ![Screenshot](https://github.com/serzz1990/solana-meme-patrol/raw/main/screenshot.png) |
 
 ---
 
