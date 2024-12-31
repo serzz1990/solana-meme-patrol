@@ -12,7 +12,6 @@ chrome.storage.local.get('config', (result) => {
   
     console.log('%cMEME patrol script loaded on solscan.io', 'background: green; color: white; font-size: 20px; padding: 5px; border-radius: 5px;');
     console.log('Loaded Configuration:');
-    console.log('Telegram Token:', telegramToken);
     console.log('Telegram Chat ID:', telegramChatId);
     console.log('Addresses:', addresses);
   
@@ -117,4 +116,3 @@ chrome.storage.local.get('config', (result) => {
     setInterval(trackTokens, 30000);
     trackTokens()
 });
-  
