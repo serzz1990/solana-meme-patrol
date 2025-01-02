@@ -15,16 +15,8 @@ Solana MEME Patrol is a powerful Chrome extension designed to help you monitor s
 
 ## Installation
 
-1. Download the plugin archive:  
-   [Download Solana MEME Patrol Plugin](https://github.com/serzz1990/solana-meme-patrol/blob/main/plugin.zip)
-
-2. Extract the ZIP file to a folder on your computer.
-
-3. Open Chrome and go to `chrome://extensions/`.
-
-4. Enable **Developer mode** in the top-right corner.
-
-5. Click **Load unpacked** and select the folder where you extracted the plugin.
+1. Install plugin:  
+   [Chrome store](https://chromewebstore.google.com/detail/solscan-meme-patrol/honjbkopflfbkineckckhbicaidpjnim)
 
 ---
 
